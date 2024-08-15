@@ -178,5 +178,6 @@ Desktop.ini
 # /custom_logs/
 # *.tmp
 *.db
+*.txt
 
 # End of https://www.toptal.com/developers/gitignore/api/python
