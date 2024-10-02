@@ -19,7 +19,7 @@ log_file_path = 'file_handlers_log.log'
 
 # 配置日志记录器
 logging.basicConfig(
-    level=logging.ERROR,  # 设置日志级别，这里是DEBUG，可以根据需要调整
+    level=logging.ERROR,  # 设置日志级别，这里是DEBUG
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',  # 日志格式
     handlers=[
         logging.FileHandler(log_file_path),  # 将日志输出到文件

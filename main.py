@@ -12,8 +12,8 @@ DEFAULT_TARGET_AREA_LINKS_TAGS = ['body']
 DEFAULT_DOMAIN_MATCH = True
 DEFAULT_BASE_PATH_MATCH = False
 
-CONTINUE_CRAWL = False
-SLEEP_TIME = 0.2
+CONTINUE_CRAWL = True
+SLEEP_TIME = 2.0
 logger = logging.getLogger(__name__)
 
 log_file_path = 'main_log.log'

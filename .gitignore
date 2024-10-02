@@ -179,5 +179,8 @@ Desktop.ini
 # *.tmp
 *.db
 space_url.txt
+INFO
+data
+space_urls.txt
 
 # End of https://www.toptal.com/developers/gitignore/api/python
